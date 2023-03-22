@@ -19,7 +19,6 @@
     }
 }
 
-
 #flexbox-01 {
     display: flex;
     flex-direction: row;
@@ -30,3 +29,17 @@
     flex-direction: row;
     justify-content: space-between;
   }
+
+#flexbox-03 {
+    display: flex;
+    flex-direction: row;
+    .box1 {
+        width: 50%;
+    }
+    .box2 {
+        width: 50%;
+    }
+    .box3 {
+        width: 50%;
+    }
+}
